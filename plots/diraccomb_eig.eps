@@ -1,0 +1,6836 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: (MATLAB, The Mathworks, Inc. Version 24.2.0.2740171 \(R2024b\) Update 1. Operating System: Linux)
+%%Title: plots/diraccomb_eig.eps
+%%CreationDate: 2025-08-29T10:53:35
+%%Pages: (atend)
+%%BoundingBox:   112    83   574   446
+%%LanguageLevel: 2
+%%EndComments
+%%BeginProlog
+%%BeginResource: procset (Apache XML Graphics Std ProcSet) 1.2 0
+%%Version: 1.2 0
+%%Copyright: (Copyright 2001-2003,2010 The Apache Software Foundation. License terms: http://www.apache.org/licenses/LICENSE-2.0)
+/bd{bind def}bind def
+/ld{load def}bd
+/GR/grestore ld
+/GS/gsave ld
+/RM/rmoveto ld
+/C/curveto ld
+/t/show ld
+/L/lineto ld
+/ML/setmiterlimit ld
+/CT/concat ld
+/f/fill ld
+/N/newpath ld
+/S/stroke ld
+/CC/setcmykcolor ld
+/A/ashow ld
+/cp/closepath ld
+/RC/setrgbcolor ld
+/LJ/setlinejoin ld
+/GC/setgray ld
+/LW/setlinewidth ld
+/M/moveto ld
+/re {4 2 roll M
+1 index 0 rlineto
+0 exch rlineto
+neg 0 rlineto
+cp } bd
+/_ctm matrix def
+/_tm matrix def
+/BT { _ctm currentmatrix pop matrix _tm copy pop 0 0 moveto } bd
+/ET { _ctm setmatrix } bd
+/iTm { _ctm setmatrix _tm concat } bd
+/Tm { _tm astore pop iTm 0 0 moveto } bd
+/ux 0.0 def
+/uy 0.0 def
+/F {
+  /Tp exch def
+  /Tf exch def
+  Tf findfont Tp scalefont setfont
+  /cf Tf def  /cs Tp def
+} bd
+/ULS {currentpoint /uy exch def /ux exch def} bd
+/ULE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add moveto  Tcx uy To add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/OLE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add cs add moveto Tcx uy To add cs add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/SOE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add cs 10 mul 26 idiv add moveto Tcx uy To add cs 10 mul 26 idiv add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/QT {
+/Y22 exch store
+/X22 exch store
+/Y21 exch store
+/X21 exch store
+currentpoint
+/Y21 load 2 mul add 3 div exch
+/X21 load 2 mul add 3 div exch
+/X21 load 2 mul /X22 load add 3 div
+/Y21 load 2 mul /Y22 load add 3 div
+/X22 load /Y22 load curveto
+} bd
+/SSPD {
+dup length /d exch dict def
+{
+/v exch def
+/k exch def
+currentpagedevice k known {
+/cpdv currentpagedevice k get def
+v cpdv ne {
+/upd false def
+/nullv v type /nulltype eq def
+/nullcpdv cpdv type /nulltype eq def
+nullv nullcpdv or
+{
+/upd true def
+} {
+/sametype v type cpdv type eq def
+sametype {
+v type /arraytype eq {
+/vlen v length def
+/cpdvlen cpdv length def
+vlen cpdvlen eq {
+0 1 vlen 1 sub {
+/i exch def
+/obj v i get def
+/cpdobj cpdv i get def
+obj cpdobj ne {
+/upd true def
+exit
+} if
+} for
+} {
+/upd true def
+} ifelse
+} {
+v type /dicttype eq {
+v {
+/dv exch def
+/dk exch def
+/cpddv cpdv dk get def
+dv cpddv ne {
+/upd true def
+exit
+} if
+} forall
+} {
+/upd true def
+} ifelse
+} ifelse
+} if
+} ifelse
+upd true eq {
+d k v put
+} if
+} if
+} if
+} forall
+d length 0 gt {
+d setpagedevice
+} if
+} bd
+/RE { % /NewFontName [NewEncodingArray] /FontName RE -
+  findfont dup length dict begin
+  {
+    1 index /FID ne
+    {def} {pop pop} ifelse
+  } forall
+  /Encoding exch def
+  /FontName 1 index def
+  currentdict definefont pop
+  end
+} bind def
+%%EndResource
+%%BeginResource: procset (Apache XML Graphics EPS ProcSet) 1.0 0
+%%Version: 1.0 0
+%%Copyright: (Copyright 2002-2003 The Apache Software Foundation. License terms: http://www.apache.org/licenses/LICENSE-2.0)
+/BeginEPSF { %def
+/b4_Inc_state save def         % Save state for cleanup
+/dict_count countdictstack def % Count objects on dict stack
+/op_count count 1 sub def      % Count objects on operand stack
+userdict begin                 % Push userdict on dict stack
+/showpage { } def              % Redefine showpage, { } = null proc
+0 setgray 0 setlinecap         % Prepare graphics state
+1 setlinewidth 0 setlinejoin
+10 setmiterlimit [ ] 0 setdash newpath
+/languagelevel where           % If level not equal to 1 then
+{pop languagelevel             % set strokeadjust and
+1 ne                           % overprint to their defaults.
+{false setstrokeadjust false setoverprint
+} if
+} if
+} bd
+/EndEPSF { %def
+count op_count sub {pop} repeat            % Clean up stacks
+countdictstack dict_count sub {end} repeat
+b4_Inc_state restore
+} bd
+%%EndResource
+%FOPBeginFontDict
+%%IncludeResource: font Courier-Oblique
+%%IncludeResource: font Courier-BoldOblique
+%%IncludeResource: font Courier-Bold
+%%IncludeResource: font ZapfDingbats
+%%IncludeResource: font Symbol
+%%IncludeResource: font Helvetica
+%%IncludeResource: font Helvetica-Oblique
+%%IncludeResource: font Helvetica-Bold
+%%IncludeResource: font Helvetica-BoldOblique
+%%IncludeResource: font Times-Roman
+%%IncludeResource: font Times-Italic
+%%IncludeResource: font Times-Bold
+%%IncludeResource: font Times-BoldItalic
+%%IncludeResource: font Courier
+%FOPEndFontDict
+%%BeginResource: encoding WinAnsiEncoding
+/WinAnsiEncoding [
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /space /exclam /quotedbl
+/numbersign /dollar /percent /ampersand /quotesingle
+/parenleft /parenright /asterisk /plus /comma
+/hyphen /period /slash /zero /one
+/two /three /four /five /six
+/seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at
+/A /B /C /D /E
+/F /G /H /I /J
+/K /L /M /N /O
+/P /Q /R /S /T
+/U /V /W /X /Y
+/Z /bracketleft /backslash /bracketright /asciicircum
+/underscore /quoteleft /a /b /c
+/d /e /f /g /h
+/i /j /k /l /m
+/n /o /p /q /r
+/s /t /u /v /w
+/x /y /z /braceleft /bar
+/braceright /asciitilde /bullet /Euro /bullet
+/quotesinglbase /florin /quotedblbase /ellipsis /dagger
+/daggerdbl /circumflex /perthousand /Scaron /guilsinglleft
+/OE /bullet /Zcaron /bullet /bullet
+/quoteleft /quoteright /quotedblleft /quotedblright /bullet
+/endash /emdash /asciitilde /trademark /scaron
+/guilsinglright /oe /bullet /zcaron /Ydieresis
+/space /exclamdown /cent /sterling /currency
+/yen /brokenbar /section /dieresis /copyright
+/ordfeminine /guillemotleft /logicalnot /sfthyphen /registered
+/macron /degree /plusminus /twosuperior /threesuperior
+/acute /mu /paragraph /middot /cedilla
+/onesuperior /ordmasculine /guillemotright /onequarter /onehalf
+/threequarters /questiondown /Agrave /Aacute /Acircumflex
+/Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave
+/Iacute /Icircumflex /Idieresis /Eth /Ntilde
+/Ograve /Oacute /Ocircumflex /Otilde /Odieresis
+/multiply /Oslash /Ugrave /Uacute /Ucircumflex
+/Udieresis /Yacute /Thorn /germandbls /agrave
+/aacute /acircumflex /atilde /adieresis /aring
+/ae /ccedilla /egrave /eacute /ecircumflex
+/edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex
+/otilde /odieresis /divide /oslash /ugrave
+/uacute /ucircumflex /udieresis /yacute /thorn
+/ydieresis
+] def
+%%EndResource
+%FOPBeginFontReencode
+/Courier-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-Oblique exch definefont pop
+/Courier-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-BoldOblique exch definefont pop
+/Courier-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-Bold exch definefont pop
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica exch definefont pop
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-Oblique exch definefont pop
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-Bold exch definefont pop
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-BoldOblique exch definefont pop
+/Times-Roman findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Roman exch definefont pop
+/Times-Italic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Italic exch definefont pop
+/Times-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Bold exch definefont pop
+/Times-BoldItalic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-BoldItalic exch definefont pop
+/Courier findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier exch definefont pop
+%FOPEndFontReencode
+%%EndProlog
+%%Page: 1 1
+%%PageBoundingBox: 0 0 638 495
+%%BeginPageSetup
+N
+  112    83 M
+  686    83 L
+  686   529 L
+  112   529 L
+cp
+clip
+[1 0 0 -1 0 495] CT
+%%EndPageSetup
+GS
+[0.75 0 0 0.75 0 0] CT
+1 GC
+N
+0 0 850 660 re
+f
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+1 GC
+N
+0 0 850 660 re
+f
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+1 GC
+N
+170 528 M
+765 528 L
+765 66 L
+170 66 L
+cp
+f
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 528 M
+765 528 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 66 M
+765 66 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+192.037 528 M
+192.037 522.05 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+247.13 528 M
+247.13 522.05 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+302.222 528 M
+302.222 522.05 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+357.315 528 M
+357.315 522.05 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+412.407 528 M
+412.407 522.05 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+467.5 528 M
+467.5 522.05 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+522.593 528 M
+522.593 522.05 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+577.685 528 M
+577.685 522.05 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+632.778 528 M
+632.778 522.05 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+687.87 528 M
+687.87 522.05 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+742.963 528 M
+742.963 522.05 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+192.037 66 M
+192.037 71.95 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+247.13 66 M
+247.13 71.95 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+302.222 66 M
+302.222 71.95 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+357.315 66 M
+357.315 71.95 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+412.407 66 M
+412.407 71.95 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+467.5 66 M
+467.5 71.95 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+522.593 66 M
+522.593 71.95 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+577.685 66 M
+577.685 71.95 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+632.778 66 M
+632.778 71.95 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+687.87 66 M
+687.87 71.95 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+742.963 66 M
+742.963 71.95 L
+S
+GR
+GS
+[0.75 0 0 0.75 144.02777 399.99998] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-4 15 moveto 
+1 -1 scale
+(0) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 185.34722 399.99998] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-15.5 15 moveto 
+1 -1 scale
+(1000) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 226.66667 399.99998] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-15.5 15 moveto 
+1 -1 scale
+(2000) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 267.98611 399.99998] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-15.5 15 moveto 
+1 -1 scale
+(3000) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 309.30556 399.99998] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-15.5 15 moveto 
+1 -1 scale
+(4000) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 350.625 399.99998] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-15.5 15 moveto 
+1 -1 scale
+(5000) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 391.94444 399.99998] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-15.5 15 moveto 
+1 -1 scale
+(6000) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 433.26389 399.99998] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-15.5 15 moveto 
+1 -1 scale
+(7000) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 474.58333 399.99998] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-15.5 15 moveto 
+1 -1 scale
+(8000) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 515.90277 399.99998] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-15.5 15 moveto 
+1 -1 scale
+(9000) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 557.22221 399.99998] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-19.5 15 moveto 
+1 -1 scale
+(10000) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 528 M
+170 66 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+765 528 M
+765 66 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 507 M
+175.95 507 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 465 M
+175.95 465 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 423 M
+175.95 423 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 381 M
+175.95 381 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 339 M
+175.95 339 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 297 M
+175.95 297 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 255 M
+175.95 255 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 213 M
+175.95 213 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 171 M
+175.95 171 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 129 M
+175.95 129 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+170 87 M
+175.95 87 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+765 507 M
+759.05 507 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+765 465 M
+759.05 465 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+765 423 M
+759.05 423 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+765 381 M
+759.05 381 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+765 339 M
+759.05 339 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+765 297 M
+759.05 297 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+765 255 M
+759.05 255 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+765 213 M
+759.05 213 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+765 171 M
+759.05 171 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+765 129 M
+759.05 129 L
+S
+GR
+GS
+[0.75 0 0 0.75 0 0] CT
+0.149 GC
+2 setlinecap
+1 LJ
+0.667 LW
+N
+765 87 M
+759.05 87 L
+S
+GR
+GS
+[0.75 0 0 0.75 123.5 380.25] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(0) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 123.5 348.75] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(1) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 123.5 317.25] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(2) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 123.5 285.75] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(3) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 123.5 254.25] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(4) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 123.5 222.75] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(5) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 123.5 191.25] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(6) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 123.5 159.75] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(7) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 123.5 128.25] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(8) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 123.5 96.75] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-8 5.5 moveto 
+1 -1 scale
+(9) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 123.5 65.25] CT
+0.149 GC
+/Helvetica 13.333 F
+GS
+[1 0 0 1 0 0] CT
+-16 5.5 moveto 
+1 -1 scale
+(10) t 
+GR
+GR
+GS
+[0.75 0 0 0.75 555.40416 65.26196] CT
+0 0.447 0.741 RC
+N
+0 -1.667 M
+0.92 -1.667 1.667 -0.92 1.667 0 C
+1.667 0 L
+1.667 0.92 0.92 1.667 0 1.667 C
+-0.92 1.667 -1.667 0.92 -1.667 0 C
+-1.667 -0.92 -0.92 -1.667 0 -1.667 C
+cp
+0 -2.333 M
+-1.289 -2.333 -2.333 -1.289 -2.333 0 C
+-2.333 1.289 -1.289 2.333 0 2.333 C
+1.289 2.333 2.333 1.289 2.333 0 C
+2.333 0 L
+2.333 -1.289 1.289 -2.333 0 -2.333 C
+cp
+f
+GR
+GS
+[0.75 0 0 0.75 554.66043 65.27346] CT
+0 0.447 0.741 RC
+N
+/f832448878{0 -1.667 M
+0.92 -1.667 1.667 -0.92 1.667 0 C
+1.667 0 L
+1.667 0.92 0.92 1.667 0 1.667 C
+-0.92 1.667 -1.667 0.92 -1.667 0 C
+-1.667 -0.92 -0.92 -1.667 0 -1.667 C
+cp
+0 -2.333 M
+-1.289 -2.333 -2.333 -1.289 -2.333 0 C
+-2.333 1.289 -1.289 2.333 0 2.333 C
+1.289 2.333 2.333 1.289 2.333 0 C
+2.333 0 L
+2.333 -1.289 1.289 -2.333 0 -2.333 C
+cp}def
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 550.15659 65.42475] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 549.41286 65.46314] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 548.62779 65.50772] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 547.88402 65.55389] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 547.14029 65.60385] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 546.39651 65.65754] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 545.65279 65.71497] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 543.38022 65.91372] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 542.63644 65.98621] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 539.16563 66.37271] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 537.38887 66.60045] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 535.15764 66.91519] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 534.41391 67.02703] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 533.7941 67.12331] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 533.6288 67.14927] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 532.88507 67.26807] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 532.14134 67.39022] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 531.39757 67.51564] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 530.65384 67.64437] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 529.91006 67.77628] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 529.37292 67.87286] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 529.125 67.91831] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 528.38127 68.0567] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 527.6375 68.1982] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 526.89377 68.34273] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 526.14999 68.49029] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 525.40627 68.64079] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 524.66249 68.79421] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 520.90242 69.61309] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 520.15869 69.78285] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 519.41492 69.95504] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 518.71248 70.11873] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 518.62985 70.13826] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 517.88612 70.31526] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 517.14235 70.49448] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 516.39862 70.67584] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 515.65485 70.85924] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 514.91112 71.04462] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 514.12605 71.24355] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 498.54863 75.37205] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 498.38333 75.41519] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 497.6396 75.60823] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 496.89583 75.79929] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 496.1521 75.98815] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 495.40833 76.17456] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 493.13576 76.72698] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 492.51599 76.87096] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 492.39203 76.90052] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 491.64825 77.07019] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 490.90453 77.23568] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 490.16075 77.39667] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 489.37569 77.5607] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 489.08647 77.62066] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 488.63196 77.71153] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 487.88818 77.85696] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 485.65695 78.25755] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 484.95451 78.37204] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 484.12811 78.49827] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 483.38438 78.60425] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 482.64061 78.7027] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 481.89688 78.79333] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 476.64931 79.19296] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 474.62466 98.73642] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 474.37674 116.19562] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 472.14551 116.28589] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 471.40173 116.34861] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 470.658 116.42753] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 469.91423 116.52246] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 469.21179 116.62059] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 469.12917 116.6337] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 468.38544 116.76029] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 466.15416 117.23214] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 465.65836 117.35525] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 464.62537 117.64277] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 463.88159 117.85993] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 463.13786 118.09091] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 541.89272 66.06239] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 462.39409 118.33545] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 541.14894 66.14218] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 461.65036 118.59319] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 538.13264 66.50252] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 458.96457 119.61481] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 457.89029 120.07228] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 457.22919 120.36557] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 456.40279 120.74438] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 448.88264 124.74601] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 448.13887 125.18969] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 447.47777 125.59046] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 446.65137 126.0996] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 446.23819 126.35749] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 445.08124 127.09087] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 443.63507 128.04984] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 442.14757 129.04082] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 441.69305 129.32831] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 441.40384 129.54513] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 440.66006 130.05509] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 440.5361 130.12041] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 439.875 130.57899] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 439.46182 130.86769] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 439.13127 131.09982] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 438.42883 131.61685] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 438.3875 131.62572] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 437.64377 132.15651] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 437.39584 132.3345] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 436.89999 132.69202] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 436.32152 133.11166] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 436.15627 133.23205] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 435.41249 133.77644] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 435.32986 133.8372] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 434.62743 134.37643] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 434.29688 134.62166] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 433.8837 134.92929] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 433.26389 135.37207] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 501.39967 74.61851] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 431.28053 136.87241] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 430.16492 137.74759] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 429.37985 138.33183] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 427.14862 140.06803] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 426.48752 140.58651] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 426.40485 140.65145] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 425.66112 141.23689] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 425.49582 141.36724] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 424.87605 141.87752] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 424.58679 142.0857] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 424.13228 142.4664] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 423.59514 142.87205] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 423.38855 143.05667] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 422.68611 143.59478] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 463.0139 118.11919] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 422.64478 143.64807] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 421.90105 144.24041] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 421.73575 144.37212] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 540.40521 66.22563] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 460.90659 118.86386] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 421.15727 144.83337] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 539.66144 66.31269] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 460.8653 118.8662] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 420.78543 145.10992] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 460.16286 119.14708] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 420.41354 145.42673] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 538.87637 66.40813] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 459.37779 119.44536] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 419.8764 145.83546] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 419.62848 146.03332] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 458.63402 119.753] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 418.92604 146.61356] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 418.8847 146.62681] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 418.14098 147.21978] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 457.14651 120.40284] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 417.97568 147.35147] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 417.3972 147.81196] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 417.06665 148.07481] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 414.38091 150.21585] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 414.17432 150.35956] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 413.63713 150.79768] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 413.22395 151.1195] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 412.14967 151.95061] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 411.4059 152.52056] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 410.66217 153.08536] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 409.87711 153.65909] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 409.13333 154.21148] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 282.40661 299.02217] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 281.70417 299.58524] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 280.13402 300.90578] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 503.63091 74.01892] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 230.63333 333.17544] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 157.91111 374.27552] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 279.88612 301.11436] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 502.88713 74.21923] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 229.88958 333.28693] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 279.39027 301.53147] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 279.0184 301.87074] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 229.14583 333.37564] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 391.98578 167.41829] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 277.24166 303.33712] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 276.33263 304.0993] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 273.39896 306.57193] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 416.65347 148.40297] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 174.39757 371.5017] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 416.075 148.8616] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 173.86042 371.61855] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 271.91146 307.80297] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 415.16597 149.57997] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 172.91006 371.83248] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 271.82881 307.87113] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 172.16632 371.99213] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 270.38264 309.03543] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 269.96944 309.3736] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 268.89514 310.24928] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 193.15661 366.14758] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 268.15139 310.85236] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 192.45417 366.37248] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 266.66389 312.05017] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 389.63054 190.80168] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 253.89617 321.72759] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 335.62605 237.81269] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 388.14304 191.14717] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 477.39304 79.16313] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 253.35903 322.08488] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 335.33681 238.06709] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 251.66494 323.26229] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 251.12778 323.60692] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 250.87985 323.77235] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 154.89479 374.56469] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 332.94028 240.36937] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 250.1361 324.2639] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 154.15105 374.625] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 249.97083 324.37216] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 249.39237 324.74815] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 499.12711 75.22046] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 226.7493 333.5026] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 153.4073 374.68105] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 248.8139 325.11955] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 152.66354 374.73283] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 248.64862 325.22479] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 247.90487 325.6935] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 247.65694 325.8479] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 246.41737 326.60559] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 455.65901 121.09658] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 354.38507 218.98022] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 244.1448 327.93917] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 243.81425 328.1234] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 157.12604 374.35828] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 377.64791 197.13739] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 237.40972 331.20998] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 509.66354 72.40078] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 236.66597 331.50085] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 515.61356 70.87069] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 241.91354 329.14037] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 508.87848 72.60773] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 235.88091 331.79436] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 162.41493 373.71762] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 374.63159 199.62151] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 161.62986 373.82435] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 333.76666 239.58083] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 144.0691 380.25] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 374.34235 199.83788] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 161.2993 373.86871] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 244.88855 327.51711] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 352.89757 220.48492] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 239.39305 330.35777] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 373.43333 200.6199] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 272.73784 307.11999] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 232.9059 332.70133] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 160.14236 374.01739] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 511.15105 72.00946] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 238.15347 330.90305] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 232.16215 332.87874] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 159.39861 374.10764] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 243.40105 328.35072] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 510.40727 72.20452] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 237.65765 331.10944] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 231.37708 333.04163] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 242.6573 328.75131] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 376.90416 197.72289] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 376.16041 198.32206] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 247.16112 326.15387] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 502.1434 74.41918] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 431.65242 136.61016] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 229.18714 333.37175] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 375.37534 198.9971] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 246.37605 326.64349] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 375.25138 199.0714] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 430.90869 137.17731] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 228.40208 333.44119] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 245.6323 327.08508] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 454.91528 121.45911] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 353.64132 219.73217] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 500.6559 74.81704] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 430.33022 137.62059] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 227.65833 333.48328] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 473.63297 116.20932] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 332.65105 240.66886] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 245.13645 327.3742] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 499.91217 75.01453] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 226.91457 333.50173] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 472.88924 116.23941] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 332.19653 241.07368] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 177.08334 370.86108] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 481.15311 78.87597] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 226.12951 356.96281] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 337.60938 235.87303] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 253.15242 322.24544] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 334.8823 238.53335] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 480.40938 78.95032] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 225.38576 356.98377] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 252.40869 322.75708] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 334.51041 238.86619] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 386.65553 191.64705] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 479.6656 79.0162] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 255.38367 320.67426] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 224.64201 357.02099] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 252.24339 322.86992] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 361.16146 212.19532] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 360.70695 212.61365] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 256.12743 320.13922] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 506.9778 73.11587] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 396.40695 161.49158] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 222.41077 357.22744] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 255.46632 320.61509] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 337.15487 236.29257] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 395.95244 161.6244] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 221.62569 357.32682] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 221.37778 357.36305] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 178.15764 370.59315] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 256.91249 319.5496] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 467.64166 116.90242] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 265.13507 313.29117] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 177.41389 370.77944] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 256.49931 319.85078] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 337.89862 235.56084] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 466.89793 117.05976] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 264.43263 313.82384] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 211.91563 359.68488] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 183.40521 369.18549] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 556.89166 65.25048] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 367.15279 206.34982] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 265.87882 312.70033] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 265.34166 313.10477] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 445.90764 126.56535] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 212.65938 359.45414] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 325.91597 246.74799] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 452.64272 122.64515] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 351.78195 221.58437] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 170.6375 372.30444] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 325.50277 247.09891] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 411.28194 152.59822] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 217.1632 358.19737] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 349.1375 224.26678] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 267.40764 311.45272] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 553.13159 65.30912] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 191.62778 366.64533] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 449.95692 124.11898] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 167.6625 372.87211] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 216.37814 358.40179] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 348.80695 224.60213] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 267.24236 311.58575] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 552.38786 65.33231] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 190.88403 366.88836] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 166.87743 373.01399] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 166.25764 373.11788] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 373.14409 200.90167] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 226.70798 338.46833] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 266.29202 312.37072] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 190.14028 367.12891] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 448.71735 124.84392] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 166.13369 373.14146] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 165.38993 373.26489] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 372.40034 201.55589] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 164.64618 373.38423] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 371.78055 202.07723] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 269.63889 309.64359] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 163.90243 373.49947] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 187.90902 367.83458] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 319.63541 251.60587] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 181.87638 369.60837] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 366.07848 207.37326] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 478.88054 79.07628] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 223.89825 357.07425] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 254.63992 321.2038] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 336.41112 237.02106] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 475.90553 79.21357] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 220.88194 357.44016] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 151.87847 374.78249] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 382.15173 193.97749] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 544.90901 65.77614] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 262.90382 315.04314] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 187.82639 367.86024] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 181.13263 369.81228] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 478.13681 79.1242] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 223.1545 357.14321] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 254.43333 321.33197] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 336.08057 237.34376] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 504.41597 73.80587] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 394.13438 162.01196] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 475.1618 79.22492] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 220.13818 357.56712] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 151.13473 374.82555] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 381.40798 194.45396] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 544.16528 65.84102] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 262.4493 315.3745] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 442.89134 128.54233] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 209.64306 360.40926] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 474.66595 79.22736] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 412.8934 151.37612] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 219.39445 357.70704] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 150.39098 374.8643] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 521.64619 69.44588] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 381.11874 194.62088] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 415.90974 148.99244] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 173.65382 371.66901] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 272.65521 307.18838] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 324.59374 247.85822] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 258.39999 318.45257] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 412.27359 151.8378] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 218.6507 357.8592] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 546.85103 65.6244] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 264.39132 313.87866] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 182.7441 369.37285] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 556.14793 65.2543] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 366.90486 206.58508] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 176.62882 370.9772] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 278.64654 302.15696] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 160.88611 373.92297] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 263.64757 314.4627] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 175.88507 371.15577] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 261.54028 316.07629] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 428.3882 139.10068] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 305.50417 283.10845] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 185.63646 368.53427] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 179.97569 370.12264] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 259.55695 317.5862] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 320.62708 250.92018] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 201.37917 363.28615] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 309.38818 255.48134] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 207.57708 361.10804] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 315.7514 253.86564] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 195.38784 365.39207] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 257.5323 319.11429] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 338.64237 234.82615] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 444.3788 127.56359] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 211.13056 359.92321] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 205.13924 361.96745] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 278.15069 302.57373] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 148.15972 374.9548] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 465.41043 117.41923] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 263.44098 314.60241] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 175.14132 371.33061] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 185.34722 368.61298] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 147.41597 374.97636] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 271.1264 308.42498] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 261.375 316.20325] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 299.63681 285.7766] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 209.80833 360.35445] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 317.65208 252.85375] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 343.88992 229.60771] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 203.65173 362.492] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 311.66077 255.26113] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 364.59098 208.80567] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 179.64514 370.20975] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 259.14375 317.89689] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 207.4118 361.16487] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 385.9118 191.95065] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 315.37951 254.04533] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 240.9632 329.61086] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 342.1132 231.36557] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 235.13715 332.04929] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 146.63091 374.99448] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 270.91978 308.61921] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 281.66286 299.6469] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 280.79514 300.34962] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 505.90347 73.40483] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 395.66318 161.69877] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 233.19514 332.62415] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 144.39965 375.01962] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 452.68401 122.60591] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 289.88541 292.81796] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 234.3934 332.28591] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 145.88715 375.00716] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 274.14272 305.95377] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 262.16006 315.61983] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 186.38021 368.31095] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 405.4146 156.84269] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 344.34444 229.11999] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 300.38056 285.34433] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 257.65624 319.00353] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 296.6618 287.69843] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 505.15974 73.60526] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 394.87811 161.87997] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 144.11041 375.02003] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 155.63854 374.50014] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 333.3948 239.9618] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 280.87777 300.28011] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 506.6472 73.20467] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 233.64965 332.50351] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 273.64687 306.36607] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 145.1434 375.01554] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 453.38644 122.25252] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 352.5257 220.8306] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 290.62917 292.22383] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 405.00137 157.11808] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 269.06042 310.11491] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 163.15868 373.61062] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 319.88333 251.438] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 201.13124 363.37399] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 302.65313 284.19296] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 194.68542 365.62223] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 182.66146 369.39608] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 366.40903 207.05729] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 198.40416 364.33587] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 443.92429 127.84039] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 210.38681 360.16413] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 389.29999 190.86451] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 318.39583 252.4067] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 204.39548 362.22929] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 364.88022 208.55731] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 553.87537 65.28977] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 192.41286 366.39526] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 260.54862 316.83499] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 321.41215 250.36707] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 184.14896 368.9716] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 205.88299 361.70677] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 307.9007 282.63455] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 199.89166 363.81242] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 445.16391 127.03798] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 212.12222 359.60944] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 193.90034 365.89776] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 260.63125 316.77205] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 299.09965 286.12463] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 203.27987 362.61253] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 427.89235 139.48682] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 304.88438 283.30987] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 310.95834 255.37363] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 184.8927 368.7545] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 178.90139 370.40325] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 258.56527 318.32948] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 206.62674 361.44763] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 308.64445 282.57495] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 200.63541 363.54952] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 194.64409 365.64587] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 205.42847 361.85468] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 307.15695 282.73643] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 365.66528 207.76945] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 301.16563 284.93312] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 187.16528 368.06419] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 318.47848 252.35543] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 344.63367 228.85751] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 202.90798 362.75528] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 522.38992 69.28129] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 310.87569 255.38436] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 363.76458 209.60834] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 442.76738 128.60516] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 208.89931 360.65806] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 387.39931 191.37862] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 316.90833 253.27318] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 242.45068 328.85037] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 343.14617 230.35664] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 298.89306 286.22994] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 180.38889 370.01276] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 259.8875 317.33665] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 202.16423 363.01881] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 521.97675 69.3724] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 310.13194 255.45575] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 298.14931 286.70251] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 208.15556 360.9101] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 342.85693 230.61848] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 282.6132 298.82172] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 283.15034 298.39828] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 283.48091 298.12134] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 391.15938 190.62115] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 283.89409 297.7755] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 391.90311 190.59487] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 213.40313 359.22929] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 284.3486 297.36836] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 508.1347 72.80597] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 274.88647 305.33405] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 235.67432 331.86241] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 397.89445 160.97723] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 214.14688 359.01098] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 284.63784 297.15417] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 447.39514 125.64099] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 214.60139 358.87097] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 285.25763 296.61042] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 275.63022 304.71293] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 398.63818 160.67378] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 214.89063 358.79984] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 285.38159 296.53464] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 509.78751 72.36665] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 399.38196 160.34208] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 215.63438 358.59652] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 286.12534 295.91727] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 286.16666 295.85566] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 277.15903 303.40647] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 400.12569 159.98411] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 286.91041 295.24102] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 400.91075 159.5877] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 449.62637 124.31013] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 287.07568 295.10481] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 277.90279 302.78204] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 401.32397 159.36533] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 287.65416 294.6294] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 401.65453 159.18267] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 450.41144 123.87679] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 168.40625 372.73618] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 287.98473 294.3587] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 451.15521 123.45755] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 169.15001 372.59624] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 288.39791 294.02135] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 402.64618 158.61102] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 451.27917 123.37081] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 288.89376 293.6182] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 451.89894 123.04691] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 170.30695 372.37065] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 289.14166 293.41734] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 403.84447 157.86629] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 454.08888 121.87373] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 290.79444 292.09257] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 454.13022 121.86931] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 353.26945 220.07742] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 291.41423 291.63011] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 291.74478 291.37088] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 292.69514 290.60685] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 355.12882 218.22926] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 293.64548 289.90942] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 535.90137 66.8068] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 355.50069 217.82295] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 293.6868 289.85193] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 536.64514 66.70187] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 355.91389 217.40652] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 294.38924 289.35326] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 297.40556 287.19255] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 301.78542 284.59248] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 301.90938 284.54938] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 303.35555 283.86731] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 303.39688 283.86612] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 427.39655 139.87403] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 304.14063 283.57102] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 428.63612 138.90803] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 305.62814 283.08476] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 306.4132 282.87955] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 365.33473 208.08737] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 158.65486 374.19367] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 309.34687 259.67443] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 317.19756 253.12237] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 319.13958 251.93413] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 320.70973 250.86138] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 321.7427 250.12205] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 322.1559 249.81091] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 484.91318 78.37816] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 322.73438 249.36662] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 322.89965 249.23792] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 323.6434 248.64947] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 486.40068 78.13027] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 323.68472 248.59852] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 487.14445 77.99665] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 324.38715 248.04678] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 325.13091 247.43104] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 326.4118 246.32243] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 326.65972 246.10792] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 327.2382 245.60305] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 327.40347 245.45773] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 328.06458 244.87198] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 328.14722 244.79826] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 328.89098 244.13024] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 328.93229 244.11548] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 329.63473 243.45431] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 188.65277 367.6021] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 329.75869 243.36408] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 189.39653 367.36684] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 330.37848 242.77107] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 550.90036 65.39014] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 330.54375 242.61832] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 551.64409 65.35932] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 190.1816 367.12413] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 331.16354 242.06669] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 331.37013 241.84973] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 331.9073 241.37066] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 334.13855 239.24984] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 336.8243 236.61676] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 338.39445 235.07135] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 148.90347 374.92893] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 339.1382 234.33483] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 149.64722 374.89877] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 339.3861 234.08876] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 339.88195 233.59579] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 340.12985 233.3489] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 511.89478 71.81573] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 238.89722 330.58079] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 340.6257 232.85442] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 340.91494 232.59396] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 512.63855 71.62341] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 239.64098 330.24387] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 341.36945 232.11095] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 513.38228 71.43265] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 240.38473 329.893] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 341.65869 231.84995] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 241.12848 329.5288] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 342.40242 231.1041] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 408.26564 154.86142] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 346.57569 226.86401] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 408.3896 154.75642] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 346.90624 226.52921] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 347.31944 226.11051] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 409.29863 154.08935] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 347.64999 225.77543] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 348.06319 225.35648] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 410.29028 153.3493] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 348.39375 225.02124] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 217.49375 358.11855] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 349.5507 223.84758] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 217.90695 358.0229] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 349.88125 223.5122] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 350.29445 223.093] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 350.625 222.75767] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 169.89375 372.45232] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 351.0382 222.33856] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 351.41006 221.9922] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 171.38125 372.15264] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 352.15382 221.2383] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 292.15798 291.04877] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 354.01318 219.32499] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 379.87917 195.47438] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 292.90173 290.47492] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 354.75694 218.57343] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 380.66423 194.95223] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 294.67847 289.11378] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 356.24444 217.07366] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 523.1337 69.11934] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 382.31701 193.87477] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 295.13299 288.80747] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 356.65764 216.65801] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 523.87743 68.96012] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 382.89548 193.5246] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 295.75278 288.33604] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 356.98819 216.32579] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 312.4045 255.09895] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 383.59792 193.09916] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 295.87674 288.27322] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 357.40139 215.91096] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 313.14825 254.89444] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 383.63924 193.09701] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 357.73194 215.57948] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 296.82708 287.58474] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 358.14514 215.16559] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 313.97466 254.61969] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 385.00278 192.36671] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 358.47569 214.8349] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 297.90138 286.86401] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 358.88889 214.42209] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 359.21944 214.09229] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 359.63264 213.68063] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 432.27223 136.11915] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 392.02707 162.17632] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 359.9632 213.35179] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 360.3764 212.94141] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 361.49201 211.8688] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 361.90521 211.46139] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 493.87953 76.54983] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 362.27708 211.06396] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 494.6646 76.35822] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 362.64896 210.73036] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 363.02083 210.33449] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 495.61491 76.12412] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 363.39272 210.00252] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 364.13647 209.27806] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 367.68993 205.87315] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 367.89654 205.64735] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 196.13159 365.1365] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 368.47499 205.10472] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 196.87534 364.8793] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 368.64027 204.95032] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 196.91666 364.85493] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 369.30139 204.33563] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 197.66041 364.59604] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 369.38402 204.25912] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 199.06528 364.10369] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 370.12777 203.57423] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 199.14791 364.0746] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 370.91286 202.88919] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 370.95417 202.82119] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 371.65661 202.21859] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 372.60695 201.34319] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 373.88784 200.25664] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 156.38229 374.43134] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 377.06944 197.59156] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 378.06111 196.81842] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 378.39166 196.56665] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 379.05279 196.07268] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 379.13541 196.01189] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 380.04444 195.35744] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 525.48889 68.62394] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 313.89201 254.64935] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 384.38297 192.69662] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 314.63576 254.36561] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 385.12674 192.32538] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 316.16457 253.66285] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 386.7382 191.61546] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 388.88681 190.95436] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 390.4156 190.6902] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 432.39619 136.04632] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 392.64688 162.16071] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 504.16805 73.87275] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 433.13992 135.48598] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 393.39061 162.10582] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 507.39098 73.00502] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 274.51458 305.61864] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 397.15068 161.25048] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 275.42361 304.85992] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 398.18367 160.8672] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 276.41528 304.03006] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 399.87776 160.10624] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 402.39825 158.75712] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 403.14203 158.31281] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 403.88576 157.85132] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 343.60069 229.8699] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 404.62953 157.37424] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 345.08819 228.36893] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 406.15833 156.33723] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 345.37743 228.10622] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 406.9021 155.82032] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 345.83194 227.61687] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 407.23265 155.58718] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 346.16249 227.28236] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+GS
+[0.75 0 0 0.75 407.64583 155.29302] CT
+0 0.447 0.741 RC
+N
+f832448878
+f
+GR
+%%Trailer
+%%Pages: 1
+%%EOF

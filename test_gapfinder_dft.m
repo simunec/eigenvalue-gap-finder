@@ -1,19 +1,31 @@
-% Test performance of gapfinder on a real test problem
+clear
+close all
 
-clear;
+load DFT-examples/h2_chain_1250mol_6-31G_lda_matrices.mat
+Z=chol(S);
+% 
 
-load linverse;
+% 
+A = (Z')\H_DFT/Z;  % Hamiltonian w.r.t. an orthogonal basis
+% 
+Z = sparse(Z);
+H_DFT = sparse(H_DFT);
+% 
+tic;
+ee = eig(full(A), 'vector');
+ee = sort(ee);		% should coincide with eigs_Ha
+t_eig = toc;
+fprintf("Eigenvalue computation time: %.2f\n", t_eig)
 
-A = Problem.A;
+% Define function handle:
+Afun = @(x) Z' \ (H_DFT * (Z \ x));
+A = matrix_handle(Afun, size(Z,1));
 n = size(A, 1);
+
+matrixname = strcat("H2chain",int2str(n));
 
 rng(0);
 fprintf("n = %d\n", n);
-
-tic;
-ee = eig(full(A), 'vector');
-t_eig = toc;
-fprintf("Eigenvalue computation time: %.2f\n", t_eig)
 
 mus = linspace(min(ee), max(ee), 1000); 
 delta = 1e-2;
@@ -33,7 +45,6 @@ tic;
 [gaps_res, trest_res, trest_upper_res, trest_lower_res, ~] = gapfinder_main(A, mus, delta, its_lanc, bound_type, d, c);
 t_res = toc;
 
-
 % Find truegaps corresponding to found gaps:
 for j = 1:length(gaps)
 	mu = 0.5*(gaps{j}(2) + gaps{j}(1));
@@ -43,60 +54,63 @@ for j = 1:length(gaps)
 end
 
 % Plots:
+close all
 figure;
 p1 = plot(ee, 'o'); 
 p1.MarkerSize = 3;
-xlim([-400, length(ee) + 400]);
-ylim([min(ee)-1, max(ee)+1]);
-yticks([-5, 0, 5, 10, 15]);
+xlim([-100, length(ee) + 100]);
+ylim([min(ee)-.1, max(ee)+.1]);
+% yticks([-5, 0, 5, 10, 15]);
 
 set(gcf,'PaperPositionMode','auto');
 set(gcf,'PaperSize', [6 4]);
 set(gcf, "PaperPosition", [0 0 6 4]);
 
-fname = "plots/realmat_eig";
+fname = strcat("plots/",matrixname,"_eig");
 print(fname, '-depsc2');
 
+pause(0.2)
 
 figure;
 plot(mus, trest, '-.r'); hold on;
 plot(mus, trest_upper, '-.b'); hold on;
 plot(mus, trest_lower, '-.b'); hold on;
-xlim([min(mus) - 1, max(mus) + 1]);
-ylim([min(trest) - 600, max(trest) + 600]);
+xlim([min(mus) - .1, max(mus) + .1]);
+ylim([min(trest) - 100, max(trest) + 100]);
 xlabel("\mu");
 
 set(gcf,'PaperPositionMode','auto');
 set(gcf,'PaperSize', [6 4]);
 set(gcf, "PaperPosition", [0 0 6 4]);
 
-fname = "plots/gapfinder_realmat_diff";
+fname = strcat("plots/gapfinder_",matrixname,"_diff");
 print(fname, '-depsc2');
 
+pause(0.2)
 
 figure;
 plot(mus, trest_res, '-.r'); hold on;
 plot(mus, trest_upper_res, '-.b'); hold on;
 plot(mus, trest_lower_res, '-.b'); hold on;
-xlim([min(mus) - 1, max(mus) + 1]);
-ylim([min(trest) - 600, max(trest) + 600]);
+xlim([min(mus) - .1, max(mus) + .1]);
+ylim([min(trest) - 100, max(trest) + 100]);
 xlabel("\mu");
 
 set(gcf,'PaperPositionMode','auto');
 set(gcf,'PaperSize', [6 4]);
 set(gcf, "PaperPosition", [0 0 6 4]);
 
-fname = "plots/gapfinder_realmat_res";
+fname = strcat("plots/gapfinder_",matrixname,"_res");
 print(fname, '-depsc2');
 
 % Construct table:
 % first gap | second gap | third gap | time
-tablerow1 = sprintf("eig & [%.3f, %.3f] & [%.3f, %.3f] & [%.3f, %.3f] & %.3f \\\\", truegaps{1:3}, t_eig);
-tablerow2 = sprintf("consec.~diff. & [%.3f, %.3f] & [%.3f, %.3f] & [%.3f, %.3f] & %.3f \\\\", gaps{1:3}, t_diff);
-tablerow3 = sprintf("residues & [%.3f, %.3f] & [%.3f, %.3f] & [%.3f, %.3f] & %.3f \\\\", gaps_res{1:3}, t_res);
+tablerow1 = sprintf("\\texttt{eig} & [%.3f, %.3f] & [%.3f, %.3f] & [%.3f, %.3f] & %.3f \\\\", truegaps{1:3}, t_eig);
+tablerow2 = sprintf("\\cref{algorithm:eigenvalue-gap-finder--final} w/~consec.~diff. & [%.3f, %.3f] & [%.3f, %.3f] & [%.3f, %.3f] & %.3f \\\\", gaps{1:3}, t_diff);
+tablerow3 = sprintf("\\cref{algorithm:eigenvalue-gap-finder--final} w/~\\cref{prop:lanczos-a-posteriori-error-bound} & [%.3f, %.3f] & [%.3f, %.3f] & [%.3f, %.3f] & %.3f \\\\", gaps_res{1:3}, t_res);
 table = sprintf("%s\n%s\n%s", tablerow1, tablerow2, tablerow3);
 
-fname = "tables/table_gapfinder_realmat.txt";
+fname = strcat("tables/table_gapfinder_",matrixname,".txt");
 fid = fopen(fname, 'w');
 fprintf(fid, "%s\n\n", table);
 fclose(fid);

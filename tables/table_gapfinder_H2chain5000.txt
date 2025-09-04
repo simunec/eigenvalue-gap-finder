@@ -1,0 +1,4 @@
+\texttt{eig} & [-0.282, 0.022] & [0.793, 1.204] & [1.204, 1.294] & 16.357 \\
+\cref{algorithm:eigenvalue-gap-finder--final} w/~consec.~diff. & [-0.281, 0.021] & [0.794, 1.202] & [1.204, 1.294] & 0.038 \\
+\cref{algorithm:eigenvalue-gap-finder--final} w/~\cref{prop:lanczos-a-posteriori-error-bound} & [-0.273, 0.006] & [0.814, 1.202] & [1.204, 1.272] & 0.322 \\
+
